@@ -1,0 +1,39 @@
+.home,
+.barcode,
+.map,
+.search,
+.user,
+.user-edit,
+.chatting-list,
+.cart-page,
+.item,
+.store {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #afafaf;
+}
+
+.outer{
+  border:1px solid red;
+  height:50px;
+  width: 50px;
+  bottom:20px;
+  right: 20px;
+  margin-left: auto;
+}
+.innerLayer{
+  background-color:rgb(43,110,176);
+  opacity:40%;
+  width:100px; 
+  height:100px;
+  position:fixed;
+  bottom: 100px;
+  pointer-events: none;
+}
+.fab{
+  position:absolute;
+  bottom:20px;
+  right: 20px;
+  pointer-events:auto;
+}
